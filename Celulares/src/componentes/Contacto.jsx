@@ -8,10 +8,10 @@ function Contacto() {
       <p>Milewko@gmail.com </p>
 
     <form>
-      <input type="text" name="nombre" placeholder="Nombre"></input>
-      <input type="text" name="mail" placeholder="Email"></input>
-      <input type="text" name="Mensaje" placeholder="Mensaje"></input>
-      <input type="submit" value="Enviar fromulario"></input>
+      <input type="text" name="nombre" placeholder="Nombre" style={{ display: 'block', marginBottom: '1rem', width: '100%' }}></input>
+      <input type="text" name="mail" placeholder="Email" style={{ display: 'block', marginBottom: '1rem', width: '100%' }}></input>
+      <input type="text" name="Mensaje" placeholder="Mensaje" style={{ display: 'block', marginBottom: '1rem', width: '100%' }}></input>
+      <input type="submit" value="Enviar fromulario" style={{ display: 'block', marginBottom: '1rem', width: '100%' }}></input>
     </form>
 
 
